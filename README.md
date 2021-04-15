@@ -1,1 +1,1 @@
-# @tiny/usescreenclass
+# @tinyd/usescreenclass

@@ -1,5 +1,5 @@
 {
-  "name": "@tiny/usescreenclass",
+  "name": "@tinyd/usescreenclass",
   "version": "1.0.0",
   "description": "Hooks for responsive breakpoints",
   "main": "./dist/index.js",
