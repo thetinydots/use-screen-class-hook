@@ -1,1 +1,1 @@
-# use-screen-class-hook
+# @tiny/usescreenclass
