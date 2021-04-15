@@ -21,6 +21,9 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var react = require('react');
 
 var breakpoints = [480, 600, 840, 1024, 1440];
+var setBreakpoints = function (breaks) {
+    breakpoints = breaks;
+};
 var getBreakpoints = function () { return breakpoints; };
 
 var screenClasses = [
@@ -91,6 +94,8 @@ var useScreenClass = function (sourceRef, defaultClass) {
     return screenClass;
 };
 
-exports.default = useScreenClass;
+exports.getBreakpoints = getBreakpoints;
 exports.screenClasses = screenClasses;
+exports.setBreakpoints = setBreakpoints;
+exports.useScreenClass = useScreenClass;
 //# sourceMappingURL=index.js.map
