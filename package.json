@@ -1,6 +1,6 @@
 {
   "name": "@tinyd/usescreenclass",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hooks for responsive breakpoints",
   "main": "./dist/index.js",
   "repository": "https://github.com/thetinydots/use-screen-class-hook.git",
