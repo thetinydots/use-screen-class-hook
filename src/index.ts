@@ -3,7 +3,10 @@ import {
   useState,
   RefObject,
 } from "react";
-import { getBreakpoints } from "./breakpoints";
+import {
+  getBreakpoints,
+  setBreakpoints,
+} from "./breakpoints";
 
 type screenClass =
   | "xs"
@@ -124,4 +127,8 @@ const useScreenClass = <T>(
   return screenClass;
 };
 
-export default useScreenClass;
+export {
+  useScreenClass,
+  getBreakpoints,
+  setBreakpoints,
+};
